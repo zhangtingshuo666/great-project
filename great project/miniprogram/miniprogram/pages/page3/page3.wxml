@@ -1,0 +1,22 @@
+<view>
+  <view class="title">这里是楼层3</view>
+  <view class="displayInLine">
+  <view class="a">当前人数：</view>
+  <view class="a">{{ceng3}}</view>
+</view>
+
+
+<view class="displayInLine">
+<view class="a">想去人数：</view>
+<view class="a">{{num3}}</view>
+</view>
+<button bindtap="tap" class="button1">想去</button>
+<button bindtap="ta" class="button1">点我上传数据</button>
+<image src="http://ql2790ya8.hn-bkt.clouddn.com/ceng3.jpg"class="image"></image>
+<text class="yes">食堂特色：</text>
+<view class="y">
+水煮鱼
+锡纸培根
+油泼面
+</view>
+</view>

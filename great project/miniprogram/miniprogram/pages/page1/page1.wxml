@@ -1,0 +1,22 @@
+<!--pages/page1/page1.wxml-->
+<view>
+  <view class="title">这里是楼层1</view>
+  <view class="displayInLine">
+  <view class="a">当前人数：</view>
+  <view class="a">{{ceng1}}</view>
+</view>
+
+
+<view class="displayInLine">
+<view class="a">想去人数：</view>
+<view class="a">{{num}}</view>
+</view>
+<button bindtap="tap" class="button1">想去</button>
+<button bindtap="ta" class="button1">点我上传数据</button>
+<image src="http://ql2790ya8.hn-bkt.clouddn.com/ceng1.jpg" class="image"></image>
+<text class="yes">食堂特色：</text>
+<view class="y">黄焖鸡米饭
+西北爆炒面
+麻辣米粉</view>
+
+</view>

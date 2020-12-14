@@ -1,0 +1,45 @@
+/* pages/page1/page1.wxss */
+.button1{
+  border-radius:20rpx;
+  border:5;
+  border-bottom:5rpx solid black;
+  border-top:5rpx solid black;
+  border-left:5rpx solid black;
+  border-right:5rpx solid black;
+  margin-top:20rpx;
+  font-size:40rpx;
+  background-color:rgb(255, 0, 255);
+}
+.displayInLine{
+  display:flex;
+  justify-content: space-around;
+}
+.title{
+  font-size:50rpx;
+}
+page{
+  background-color:yellowgreen;
+}
+
+.image{
+  width: 400px;
+  height: 250px;
+  margin-top:20rpx;
+}
+
+.a{
+  font-size:40rpx;
+}
+
+.yes{
+  font-size:40rpx;
+  margin-top:30rpx;
+}
+
+.y{
+  font-size:40rpx;
+  display:flex;
+  justify-content:center;
+  margin-top:20rpx;
+}
+

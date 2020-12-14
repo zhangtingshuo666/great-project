@@ -1,0 +1,84 @@
+/**index.wxss**/
+
+text{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.image{
+  width: 400px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    position:fixed; 
+    background-size:100% 100%;
+    z-index: -1;
+
+}
+
+.button1{
+  border-radius:20rpx;
+  border:5;
+  border-bottom:5rpx solid black;
+  border-top:5rpx solid black;
+  border-left:5rpx solid black;
+  border-right:5rpx solid black;
+  margin-top:230rpx;
+  font-size:40rpx;
+}
+.button2{
+  border-radius:20rpx;
+  border:5;
+  border-bottom:5rpx solid black;
+  border-top:5rpx solid black;
+  border-left:5rpx solid black;
+  border-right:5rpx solid black;
+  margin-top: 230rpx;
+  font-size:40rpx;
+}
+.button3{
+  border-radius:20rpx;
+  border:5;
+  border-bottom:5rpx solid black;
+  border-top:5rpx solid black;
+  border-left:5rpx solid black;
+  border-right:5rpx solid black;
+  margin-top: 235rpx;
+  font-size:40rpx;
+}
+.userinfo-nickname {
+  font-size: 32rpx;
+  color: #007aff;
+  background-color: white;
+  background-size: cover;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 10px;
+}
+button {
+  color: rgba(0,0,0,.6);
+  background-color:rgb(32, 206, 32);
+}
+
+
+
+.displayInLine{
+  display:flex;
+  justify-content: space-around;
+}
+.text1{
+  color:yellow;
+  font-size: 50rpx;
+  margin-left:0rpx;
+}
+.text2{
+  color:yellow;
+  font-size: 50rpx;
+}
+.text3{
+  color:yellow;
+  font-size: 50rpx;
+}

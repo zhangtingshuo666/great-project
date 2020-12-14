@@ -1,0 +1,22 @@
+<view>
+<image src='../../images/2.jpg' class="image"></image>
+<view class="displayInLine">
+<text class="text1">楼层1:</text>
+<text class="text1">{{ceng1}}</text>
+</view>
+<button bindtap="tap1" class="button1">查看详情</button>
+<image src='../../images/3.jpg' class="image"></image>
+<view class="displayInLine">
+<text class="text2">楼层2:</text>
+<text class="text2">{{ceng2}}</text>
+</view>
+<button bindtap="tap2" class="button2">查看详情</button>
+
+<image src='../../images/4.jpg' class="image"></image>
+<view class="displayInLine">
+<text class="text3">楼层3:</text>
+<text class="text3">{{ceng3}}</text>
+</view>
+<button bindtap="tap3" class="button3">查看详情</button>
+
+</view>
